@@ -1,0 +1,31 @@
+.flex-container {
+
+    display: flex;
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    gap:1em;
+    align-items: center;
+    justify-content: center;
+
+    .flex-item {
+        width: 40px;
+        height: 40px;
+        color:white;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-1 {
+        flex-grow: 1;
+        align-self: flex-end;
+        order: 2;
+    }
+
+    .item-3{
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Franklin&family=Silkscreen&display=swap');
+
+@import '../../components/Menu/Menu' ;
+@import '../../components/Flex/Flex';
+h1 {
+    color: red;
+    text-transform: uppercase;
+    font-family:'Dancing Script' , sans-serif;
+    border:1px solid blue;
+    padding: 1rem
+}
+
+span {
+    font-weight: bold;
+}
+
+.description {
+    background-color: coral;
+}
+
+#skills {
+    background-color: cadetblue;
+    h2 {
+       color:#fff;
+       font-family: 'Libre Franklin', sans-serif;
+    }
+}

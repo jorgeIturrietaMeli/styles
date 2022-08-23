@@ -1,0 +1,28 @@
+.menu {
+    position: absolute;
+    right: 0;
+    margin: auto 0;
+    border: 1px solid red;   
+    ul > li {
+        color:black;
+        background-color: red;
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+        margin-bottom: 1rem;
+       
+    
+        &:hover {
+            cursor: pointer;
+            background-color: brown;
+        }
+        &:focus {
+            background-color: cadetblue;
+        }
+        
+    }
+    
+}
+
+
+
+
